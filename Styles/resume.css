@@ -2,17 +2,34 @@
 body
 {
 	background-color: aliceblue;
+	
 }
 
 header
 {
 	width:100%;
+	font-family: 'Times New Roman', Times, serif;
 }
 
-#contact, #skills, h1, #objective
+#contact, #skills, h1, #objective, #projects, #education, #experience
+{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+/* #contact
+{
+	margin-left: 10px;
+} */
+
+h1
+{
+	margin-left: 65px;
+}
+
+/* #skills, #objective
 {
 	margin-left: 50px;
-}
+} */
 
 hr
 {
@@ -30,7 +47,8 @@ hr
 	margin-top: 25px;
 }
 
-ul {
+ul 
+{
     list-style-type: none;
 }
 
