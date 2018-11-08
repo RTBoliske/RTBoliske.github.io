@@ -1,61 +1,48 @@
-/*Resume style sheet*/
-body
-{
-	background-color: aliceblue;
-	
+html, body, header, .view {
+    height: 100%;
+    margin: 0;
 }
 
-header
-{
-	width:100%;
-	font-family: 'Times New Roman', Times, serif;
+nav {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif; 
+   
 }
 
-#contact, #skills, h1, #objective, #projects, #education, #experience
-{
-	font-family: 'Times New Roman', Times, serif;
+.contentLinks {
+    padding-left: 30%;
 }
 
-/* #contact
-{
-	margin-left: 10px;
-} */
-
-h1
-{
-	margin-left: 65px;
+.view {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* #skills, #objective
-{
-	margin-left: 50px;
-} */
-
-hr
-{
-	width: 95%;
+li a {
+    color: white;
+    font-size: 20px;
 }
 
-#familiar 
-{
-	margin-left: 250px;
-	margin-top: -134px;
+li {
+    margin-left: 15px;
 }
 
-#proficient
-{
-	margin-top: 25px;
-}
+ #objective, #projects, #education, #experience {
+     font-family: 'Times New Roman', Times, serif;
+     
+ }
 
-ul 
-{
-    list-style-type: none;
-}
+ #objectiveCard, #homeCard, #skillsCard, #contactCard, #projectsCard, #educationCard, #experienceCard {
+     padding-top: 25%;
+ }
 
-li
-{
-	margin-left: 15px;
-}
+ div h3, div a, nav a {
+     color: white;
+ }
 
+ p a {
+     color: black;
+ }
 
 
