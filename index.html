@@ -10,23 +10,14 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     </head>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="padding-left: 6%;">
-        <!-- <span class="navbar-brand mb-0 h1" id="name" style="color: #87cefa;">Robert T (Ted) Boliske</span> -->
-        <a class="navbar-brand" href="index.html">Robert T (Ted) Boliske</a>
+    <nav class="navbar fixed-top navbar-expand-sm" id="topNav">
+        <a class="navbar-brand" id="name-link" href="index.html">Robert T (Ted) Boliske</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="objective.html">Objective</a>
-                </li> -->
-
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link text-light" href="skills.html">Skills</a>
                 </li>
@@ -46,29 +37,22 @@
         </div>
     </nav>
 
-    <body>
-        <div class="view" style="background-image: url('images/abstract_code02.jpg');">
+    <body>		
+        <div class="view" style="background-image: url('images/abstract_code02.jpg');"> 
             <div class="container-fluid">
-                <div class="row" id="homeCard">
-                    <div class="col-lg-3 col-md-3 col-sm-12"></div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div id="objective" class="card border-info">
-                            <img class="card-img-top" src="TedBoliskeHeadshot.jpg" alt="my image">
-                            <!-- <div class="card-header border-info bg-primary">
-                                <h3></h3>
-                            </div> -->
-                            <div class="card-body bg-light text-dark">
-                                <div class="card-text">
-                                    
-                                </div>
-                                <div class="homeButtons">
-                                    <a href="objective.html" class="btn text-primary">Learn More</a>
-                                    <a href="contact.html" class="btn text-primary">Contact</a>
+                <div class="row" id="aboutCard">
+                    <div class="col-lg-4 col-md-4 offset-4 col-sm-12">
+                        <div id="about-me" class="card border-dark">
+                            <img class="card-img-top" src="images/TedBoliskeHeadshot.jpg" alt="Ted Boliske">
+
+                            <div class="card-body bg-info">
+                                <div class="aboutButtons">
+                                    <a href="objective.html" class="btn text-light" id="about-link" style="font-size: 24px;">Learn More</a>
+                                    <a href="contact.html" class="btn text-light" id="contact-link" style="font-size: 24px;">Contact</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12"></div>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Robert T (Ted) Boliske</title>
+        <title>Technical Projects</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,25 +10,16 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     </head>
 
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary" style="padding-left: 6%;">
-        <!-- <span class="navbar-brand mb-0 h1">Robert T (Ted) Boliske</span> -->
-        <a class="navbar-brand" href="index.html">Robert T (Ted) Boliske</a>
+    <nav class="navbar fixed-top navbar-expand-sm" id="topNav">
+        <a class="navbar-brand" id="name-link" href="index.html">Robert T (Ted) Boliske</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="objective.html">Objective</a>
-                </li> -->
-
-                <li class="nav-item">
-                    <a class="nav-link" href="skills.html">Skills</a>
+                    <a class="nav-link text-light" href="skills.html">Skills</a>
                 </li>
     
                 <li class="nav-item active">
@@ -36,11 +27,11 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="education.html">Education</a>
+                    <a class="nav-link text-light" href="education.html">Education</a>
                 </li>
         
                 <li class="nav-item">
-                    <a class="nav-link" href="experience.html">Experience</a>
+                    <a class="nav-link text-light" href="experience.html">Experience</a>
                 </li>
             </ul>
         </div>
@@ -50,76 +41,81 @@
         <div class="view" style="background-image: url('images/abstract_code02.jpg');">
             <div class="container-fluid">
                 <div class="row" id="projectsCard">
-                    <div class="col-lg-1 col-md-1 col-sm-12"></div>
-                    <div class="col-lg-10 col-md-10 col-sm-12">
-                        <div class="card-deck">
-                            <div class="card border-secondary" id="projectOne">
-                                <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
-                                <h5 class="card-header bg-info text-light">Pages for Prizes</h5>
-                                <div class="card-body">
-                                    <!-- <h5 class="card-title">Pages for Prizes</h5> -->
-                                    <h6 class="card-subtitle mb-2 text-muted">Family Reading Tracker</h6>
-                                    <p class="card-text">
-                                            Developed in ASP.NET C# using OOP, MVC, HTML5, CSS3, Bootstrap3, JavaScript, jQuery,
-                                            and MS SQL Server for database.
-                                    </p>
-                                </div>
-                                    
-
-                                <div class="card-footer border-secondary">
-                                    <a href="http://pages-for-prizes.azurewebsites.net/" class="card-link text-primary">Learn more</a>
-                                </div>
-                            </div>
-
-                            <!-- <div class="card" id="projectTwo">
-                                <img class="card-img-top" src="" alt="Card image cap">
-    
-                                <div class="card-body">
-                                    <h5 class="card-title">Project title</h5>
-                                    <blockquote class="card-text">
-                                        Text description of project.
-                                    </blockquote>
-                                </div>
-    
-                                <div class="card-footer">
-                                    <a href="#" class="card-link text-primary">Learn more</a>
-                                </div>
-                            </div> -->
-
-                            <div class="card border-secondary" id="projectThree">
-                                <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
-                                <h5 class="card-header bg-info text-light">National Parks Weather</h5>
-                                <div class="card-body">
-                                    <!-- <h5 class="card-title">National Parks Weather</h5> -->
-                                    <h6 class="card-subtitle mb-2 text-muted">Web Application</h6>
-                                    <p class="card-text">
-                                        Developed in ASP.NET C# using OOP, MVC, HTML5, CSS3, Bootstrap3, JavaScript, jQuery,
-                                        and MS SQL Server for database.
-                                    </p>
-                                </div>
-    
-                                <!-- <div class="card-footer border-secondary">
-                                    <a href="#" class="card-link text-primary">Learn more</a>
-                                </div> -->
-                            </div>
-    
-                            <div class="card border-secondary" id="projectFour">
-                                <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
-                                <h5 class="card-header bg-info text-light">Vending Machine</h5>
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">CLI Application</h6>
-                                    <p class="card-text">
-                                        Developed in C# using OOP and File I/O.
-                                    </p>
-                                </div>
-        
-                                <!-- <div class="card-footer border-secondary">
-                                    <a href="#" class="card-link text-primary">Learn more</a>
-                                </div> -->
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="card border-dark" id="projects">
+                            <h4 class="card-header bg-info text-light border-dark">Pages for Prizes</h4>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Family Reading Tracker</h5>
+                                <p class="card-text">
+                                    Developed in ASP.NET C# using OOP, MVC, HTML5, CSS3, Bootstrap3, JavaScript, jQuery, and MS SQL Server for database.
+                                </p>
+                            </div>                                    
+                        </div>
+                    </div>
+                            
+                    <div class="col-lg-3 col-md-3 offset-1 col-sm-12">
+                        <div class="card border-dark" id="projects">
+                            <h4 class="card-header bg-info text-light border-dark">National Parks Weather</h4>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Web Application</h5>
+                                <p class="card-text">
+                                    Developed in ASP.NET C# using OOP, MVC, HTML5, CSS3, Bootstrap3, JavaScript, jQuery, and MS SQL Server for database.
+                                </p>
                             </div>
                         </div>
-                    <div class="col-lg-1 col-md-1 col-sm-12"></div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 offset-1 col-sm-12">    
+                        <div class="card border-dark" id="projects">
+                            <h4 class="card-header bg-info text-light border-dark">National Parks Reservations</h4>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">CLI Application</h5>
+                                <p class="card-text">
+                                    Developed in C# using OOP and SQL Server Database.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+<!--                 <div class="row" id="projectsCard">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="card border-info" id="projects">
+                            <h4 class="card-header bg-info text-light">Pages for Prizes</h4>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Family Reading Tracker</h5>
+                                <p class="card-text">
+                                    Developed in ASP.NET C# using OOP, MVC, HTML5, CSS3, Bootstrap3, JavaScript, jQuery, and MS SQL Server for database.
+                                </p>
+                            </div>                                    
+                        </div>
+                    </div>
+                            
+                    <div class="col-lg-3 col-md-3 offset-1 col-sm-12">
+                        <div class="card border-info" id="projects">
+                            <h4 class="card-header bg-info text-light">National Parks Weather</h4>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">Web Application</h5>
+                                <p class="card-text">
+                                    Developed in ASP.NET C# using OOP, MVC, HTML5, CSS3, Bootstrap3, JavaScript, jQuery, and MS SQL Server for database.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 offset-1 col-sm-12">    
+                        <div class="card border-info" id="projects">
+                            <h4 class="card-header bg-info text-light">National Parks Reservations</h4>
+                            <div class="card-body">
+                                <h5 class="card-subtitle mb-2 text-muted">CLI Application</h5>
+                                <p class="card-text">
+                                    Developed in C# using OOP and SQL Server Database.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
             </div>
         </div>
 
