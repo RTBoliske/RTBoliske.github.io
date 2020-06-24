@@ -10,4 +10,8 @@
     &__text {
         text-align: left;
     }
+
+    @include respond (tab-port) {
+        padding: 2rem;
+    } 
 }
