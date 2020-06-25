@@ -8,5 +8,21 @@
 
         left: 11%;
         top: 6rem;
+
+        @include respond (tab-port) {
+            float: left;
+            position: relative;
+            width: 33.33333333%;
+        }
+
+        &--p1 {
+            left: 0;
+            top: -2rem;
+
+            @include respond (tab-port) {
+                top: 0;
+                transform: scale(1.2);
+            }
+        }
     }
 }
