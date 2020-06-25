@@ -232,8 +232,8 @@ body {
 }
 
 .heading-secondary-light {
-  background-image: -webkit-gradient(linear, left top, right top, from(#f7f7f7), to(#999));
-  background-image: linear-gradient(to right, #f7f7f7, #999);
+  background-image: -webkit-gradient(linear, left top, right top, from(#f7f7f7), to(#777));
+  background-image: linear-gradient(to right, #f7f7f7, #777);
 }
 
 .heading-tertiary,
@@ -267,6 +267,10 @@ body {
 .paragraph-medium {
   font-weight: 500;
   text-align: center;
+}
+
+.paragraph-medium--left {
+  text-align: left;
 }
 
 .u-center-text {
@@ -606,7 +610,7 @@ body {
 }
 
 .popup__text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 4rem;
   -moz-column-count: 2;
   -moz-column-gap: 4rem;
