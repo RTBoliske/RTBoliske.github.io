@@ -1,0 +1,29 @@
+.composition {
+    position: relative;
+
+    &__photo {
+        width: 90%;
+        border-radius: 5px;
+        position: absolute;
+
+        left: 11%;
+        top: 6rem;
+
+        @include respond (tab-port) {
+            float: left;
+            position: relative;
+            width: 60%;
+        }
+
+        &--p1 {
+            left: -1rem;
+            top: 5rem;
+
+            @include respond (tab-port) {
+                top: .5rem;
+                left: 5rem;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
