@@ -609,6 +609,11 @@ body {
   padding: 3rem 5rem;
 }
 
+.popup__img {
+  display: block;
+  width: 100%;
+}
+
 .popup__text {
   font-size: 1.6rem;
   margin-bottom: 4rem;
@@ -1101,7 +1106,7 @@ body {
 }
 
 .section-about {
-  height: 125vh;
+  height: 100%;
   background-color: color-grey-light-1;
   padding: 15rem 0 20rem 0;
 }
