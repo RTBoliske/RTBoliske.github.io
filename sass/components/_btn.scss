@@ -1,9 +1,10 @@
 .btn-text {
     transform: skewX(-12deg);
+    font-weight: 500;
 
     &:link,
     &:visited {
-        font-size: $default-font-size-larger;
+        font-size: $default-font-size-larger-2;
         color: $color-tertiary-light;
         display: inline-block; 
         text-decoration: none;

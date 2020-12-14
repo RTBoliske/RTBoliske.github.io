@@ -12,15 +12,16 @@
         @include respond (tab-port) {
             float: left;
             position: relative;
-            width: 33.33333333%;
+            width: 60%;
         }
 
         &--p1 {
-            left: 0;
-            top: -2rem;
+            left: -1rem;
+            top: 5rem;
 
             @include respond (tab-port) {
-                top: 0;
+                top: .5rem;
+                left: 5rem;
                 transform: scale(1.2);
             }
         }

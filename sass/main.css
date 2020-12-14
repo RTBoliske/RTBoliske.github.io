@@ -232,8 +232,8 @@ body {
 }
 
 .heading-secondary-light {
-  background-image: -webkit-gradient(linear, left top, right top, from(#f7f7f7), to(#777));
-  background-image: linear-gradient(to right, #f7f7f7, #777);
+  background-image: -webkit-gradient(linear, left top, right top, from(#f7f7f7), to(#eee));
+  background-image: linear-gradient(to right, #f7f7f7, #eee);
 }
 
 .heading-tertiary,
@@ -246,7 +246,7 @@ body {
 
 .heading-tertiary-larger,
 .heading-tertiary-smaller {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -316,10 +316,11 @@ body {
 .btn-text {
   -webkit-transform: skewX(-12deg);
           transform: skewX(-12deg);
+  font-weight: 500;
 }
 
 .btn-text:link, .btn-text:visited {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #2998ff;
   display: inline-block;
   text-decoration: none;
@@ -611,7 +612,8 @@ body {
 
 .popup__img {
   display: block;
-  width: 100%;
+  width: 90%;
+  margin: 10px;
 }
 
 .popup__text {

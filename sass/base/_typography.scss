@@ -65,7 +65,7 @@ body {
 }
 
 .heading-secondary-light {
-    background-image: linear-gradient(to right, $color-grey-light-1, $color-grey-dark);
+    background-image: linear-gradient(to right, $color-grey-light-1, $color-grey-light-2);
 }
 
 .heading-tertiary,
@@ -78,7 +78,7 @@ body {
 
 .heading-tertiary-larger,
 .heading-tertiary-smaller {
-    font-size: $default-font-size-larger;
+    font-size: $default-font-size-larger-2;
     font-weight: 700;
 }
 
